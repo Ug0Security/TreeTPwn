@@ -1,0 +1,9 @@
+another pre auth rce on random stuff found on shodan
+
+"TreeT - The Kiosk Contents Management System" 
+
+the auth is easely bypassed, they forget to die after the 302 redirection <:*)
+just remplace the 302 by 200 in the response and tada..
+
+you can then upload a php file on the profile menu instead of the profil picture.
+the path of the uploaded php is in the upload response /data/library/XXXX.php
